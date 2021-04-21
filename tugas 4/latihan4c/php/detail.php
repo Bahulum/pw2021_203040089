@@ -25,7 +25,7 @@ $sembako = query("SELECT * FROM sembako WHERE id = $id")[0];
         </div>
         <div class="keterangan">
             <h4>keterangan</h4>
-            <p>Jenis barang : <?= $sembako["Nama barang"]; ?></p>
+            <p>Jenis barang : <?= $sembako["Nama_barang"]; ?></p>
             <p>Merk : <?= $sembako["Merk"]; ?></p>
             <p>Harga : <?= $sembako["Harga"]; ?></p>
             <p>Stok : <?= $sembako["Stok"]; ?></p>
