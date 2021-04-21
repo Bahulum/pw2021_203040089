@@ -20,7 +20,7 @@ $sembako = query("SELECT * FROM sembako")
     ?>
       <p>
         <a href="php/detail.php?id=<?= $smb['id'] ?>">
-          <?= $smb["Nama barang"] ?>
+          <?= $smb["Nama_barang"] ?>
         </a>
       </p>
     <?php endforeach; ?>
