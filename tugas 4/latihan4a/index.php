@@ -36,7 +36,7 @@ $result = mysqli_query($conn, "SELECT * FROM sembako")
                     <tr>
                         <td><?= $nomer++; ?></td>
                         <td><img src="asset/img/<?= $row["Gambar"]; ?>"></td>
-                        <td><?= $row["Nama barang"] ?></td>
+                        <td><?= $row["Nama_barang"] ?></td>
                         <td><b><?= $row["Merk"] ?></b></td>
                         <td><?= $row["Harga"] ?></td>
                         <td><?= $row["Stok"] ?></td>
