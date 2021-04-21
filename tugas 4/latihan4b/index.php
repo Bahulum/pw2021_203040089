@@ -31,7 +31,7 @@ $sembako = query("SELECT * FROM sembako")
                     <tr>
                         <td><?= $nomer++; ?></td>
                         <td><img src="asset/img/<?= $smb["Gambar"]; ?>"></td>
-                        <td><?= $smb["Nama barang"] ?></td>
+                        <td><?= $smb["Namabarang"] ?></td>
                         <td><b><?= $smb["Merk"] ?></b></td>
                         <td><?= $smb["Harga"] ?></td>
                         <td><?= $smb["Stok"] ?></td>
