@@ -1,0 +1,127 @@
+/* navbar */
+.nav-brand,
+.nav-link,
+.navbar-toggler {
+    color: white !important;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+/* carousel */
+
+.carousel-item .teks {
+    font-size: x-large;
+}
+
+.carousel h1,
+.carousel p,
+.parallax.title {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* portofolio */
+.portofolio {
+    background-color: lightgray;
+}
+
+.col-12 a:hover img {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* dekstop vers */
+@media (min-width: 992px) {
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .carousel-item {
+        height: 670px;
+    }
+
+    .carousel-item .display-4 {
+        margin-top: -350px;
+        font-size: 58px;
+    }
+}
+
+
+/* mobile vers */
+@media (max-width: 992px) {
+    .carousel-item .display-4 {
+        margin-top: -300px;
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    .carousel-item .display-4 {
+        margin-top: -250px;
+        font-size: 35px;
+    }
+
+    .carousel-item .teks {
+        font-size: large;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-item .display-4 {
+        margin-top: -150px;
+        font-size: 25px;
+    }
+
+    .carousel-item .teks {
+        font-size: medium;
+    }
+}
